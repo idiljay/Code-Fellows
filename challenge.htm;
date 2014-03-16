@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Idil Chocolate Recipe</title>
+		<style>
+			body { color:#4a4d4f; font: Arial, Helvetica, sans-serif;  }
+			
+
+/* Main Wrapper */
+.wrapper { clear: both; width: 900px; margin: 0 auto; }
+
+/* Header */
+.header { clear: both; }
+.header .logo { float: left; }
+.header .images { float: right; }
+.header .images ul { list-style: none; display: inline-block; }
+.header .images ul li { list-style: none; float: left; }
+.header .images ul li img { width: 20px; height: 20px; }
+
+/* Divider */
+.divider { clear: both; }
+
+/* Content */
+.content { clear: both; }
+.content .print { float: right; }
+
+/* Author */
+.author { clear: both; }
+.author .headshot { float: left; }
+.author .bio { float: left; }
+.author .bio h2 { display: inline-block; margin-left: 0px; }
+.author .button { float: right;  }
+
+/* Footer */
+.footer { clear: both; }
+.footer { text-align: center; } 
+
+		
+		</style>
+	</head>
+	<body>
+	
+
+<!-- Start Wrapper -->
+<div class="wrapper">
+
+	<!-- Start Header -->
+	<div class="header">
+		<div class="logo">
+			<a href="/"><img src="images/topright.jpg" /></a>
+		</div>
+		<div class="images">
+			<ul>
+				<li><a href="#"><img src="images/facebook.jpg" /></a></li>
+				<li><a href="#"><img src="images/twitter.jpg" /></a></li>
+				<li><a href="#"><img src="images/google.jpg" /></a></li>
+				<li><a href="#"><img src="images/instagram.jpg" /></a></li>
+				<li><a href="#"><img src="images/no-idea.jpg" /></a></li>
+				<li><a href="#"><img src="images/pintrest.jpg" /></a></li>
+				<li><a href="#"><img src="images/rss.jpg" /></a></li>
+				<li><a href="#"><img src="images/mail.jpg" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- End Header -->
+	
+	<!-- Start Divider -->
+	<div class="divider">
+		<img src="images/divider.jpg" />
+	</div>
+	<!-- End Divider -->
+	
+	
+	<!-- Start Content -->
+	<div class="content">
+		<h1>Chocolate Pizza</h1>
+		<p>
+			<span class="date">Posted on 15 Dec 2013/Desserts</span>
+			<span class="print"><img src="images/print.jpg" /></span>
+		</p>
+		<p><img src="images/chocolate-cake.jpg" /></p>
+		<p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+		<p>Ice cream: in a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+		<p>Using an ice cream machine, pour liquids into the frozen basic and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving.</p>
+		<p><img src="images/recipe.jpg" /></p>
+	</div>
+	<!-- End Content -->
+	
+	
+	<!-- Start Divider -->
+	<div class="divider">
+		<img src="images/divider.jpg" />
+	</div>
+	<!-- End Divider -->
+	
+	
+	<!-- Start Author -->
+	<div class="author">
+		<div class="headshot">
+	      <div class="bio">
+		 <a href="/"><img src="images/picture.jpg" /></a>
+			<h2>Vanessa Srevenson</h2>
+			<p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+	        <div class="button">
+			<a href="#"><img src="images/share-recipe.jpg" /></a>
+		</div>
+	
+	</div>
+	<!-- End Author -->
+	
+	
+	<!-- Start Footer -->
+	<div class="footer">
+		<p><img src="images/bottomlogo.jpg" /></p>
+		<p>Delicious &copy; 2013. All Rights Reserved.</p>
+		<p>Proudly published with Ghost.</p>
+		
+	</div>
+	<!-- End Footer -->
+
+</div>
+<!-- End Wrapper -->
+
+
+</body>
+</html>
