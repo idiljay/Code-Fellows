@@ -40,7 +40,63 @@
 		</style>
 	</head>
 	<body>
-	
+    <script src="test.js"></script>
+    <script>
+    $( document ).ready(function() {
+var top = 0;
+var left= 0;
+var top2 = 0;
+var left2 = 0;
+
+$("#draw")
+
+    i = 0;
+    $("#draw").on("click", function(e) {
+       i++;
+
+
+
+        top = e.pageY
+        left = e.pageX
+
+
+        top2 = e.pageY
+        left2 = e.pageX+50
+
+        heightdifference = top2-top;
+        widthdifference = 200
+
+
+            divide =  (heightdifference/widthdifference < -1 || heightdifference/widthdifference > 1) ?  widthdifference/heightdifference : heightdifference/widthdifference
+
+        rotation = 180/Math.PI*Math.asin(divide)
+
+        width = Math.sqrt(Math.pow(heightdifference,2)+Math.pow(widthdifference,2))
+
+        a = width/2
+        var b
+        c = widthdifference/2
+        margintop = Math.sqrt(Math.pow(a,2)-Math.pow(c,2))
+            margintop = (rotation > 0) ? 0-margintop : margintop
+        $("<div>").css({
+           "height": "2px",
+           "background": "black",
+           "width": width,
+           "position": "absolute",
+           "top": top,
+           "left": left,
+            "margin-top": 0-margintop,
+            "-webkit-transform": "rotate("+rotation+"deg)",
+            "-moz-transform": "rotate("+rotation+"deg)",
+            "-ms-transform": "rotate("+rotation+"deg)",
+            "-o-transform": "rotate("+rotation+"deg)",
+            "transform": "rotate("+rotation+"deg)"
+
+        }).appendTo("#draw")
+
+    })
+});
+
 
 <!-- Start Wrapper -->
 <div class="wrapper">
@@ -125,3 +181,6 @@
 
 </body>
 </html>
+
+
+
